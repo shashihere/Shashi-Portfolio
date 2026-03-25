@@ -174,7 +174,7 @@ export default function ContactPage() {
                                 </div>
                                 <div className="info-text">
                                     <h3>Email</h3>
-                                    <p><a href="mailto:ananyasbr06@gmail.com">ananyasbr06@gmail.com</a></p>
+                                    <p><a href="mailto:prabhashashi1303@gmail.com">prabhashashi1303@gmail.com</a></p>
                                 </div>
                             </div>
 
@@ -184,7 +184,7 @@ export default function ContactPage() {
                                 </div>
                                 <div className="info-text">
                                     <h3>Phone</h3>
-                                    <p><a href="tel:+918707704258">+91 87077 04258</a></p>
+                                    <p><a href="tel:+918299082574">+91 8299082574</a></p>
                                 </div>
                             </div>
 
@@ -194,7 +194,7 @@ export default function ContactPage() {
                                 </div>
                                 <div className="info-text">
                                     <h3>LinkedIn</h3>
-                                    <p><a href="https://www.linkedin.com/in/ananya-jaiswal-688b9a27b/" target="_blank" rel="noopener noreferrer">linkedin.com/in/ananya-jaiswal...</a></p>
+                                    <p><a href="https://www.linkedin.com/in/shashiprabha13/" target="_blank" rel="noopener noreferrer">linkedin.com/in/shashiprabha13</a></p>
                                 </div>
                             </div>
 
@@ -204,7 +204,7 @@ export default function ContactPage() {
                                 </div>
                                 <div className="info-text">
                                     <h3>GitHub</h3>
-                                    <p><a href="https://github.com/ananya411" target="_blank" rel="noopener noreferrer">github.com/ananya411</a></p>
+                                    <p><a href="https://github.com/shashihere" target="_blank" rel="noopener noreferrer">github.com/shashihere</a></p>
                                 </div>
                             </div>
                         </div>

@@ -5,6 +5,7 @@ import CustomCursor from "./components/CustomCursor";
 import CareerSection from "./components/CareerSection";
 import ProjectsSection from "./components/ProjectsSection";
 import AboutSection from "./components/AboutSection";
+import TrainingSection from "./components/TrainingSection"; // Added this import
 import ExperienceSection from "./components/ExperienceSection";
 import ContactSection from "./components/ContactSection";
 import LoadingScreen from "./components/LoadingScreen";
@@ -27,8 +28,8 @@ export default function Home() {
             {/* About — Fragments + Technical Arsenal + Personal */}
             <AboutSection />
 
-            {/* Experience */}
-            {/* <CareerSection /> */}
+            {/* Training */}
+            <TrainingSection />
 
             {/* Projects */}
             <ProjectsSection />

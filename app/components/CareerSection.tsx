@@ -4,13 +4,13 @@ import RevealOnScroll from "./RevealOnScroll";
 
 const experience = [
     {
-        period: "2026 — Present",
-        role: "Backend Developer",
-        company: "Freelance / Projects",
+        period: "2023 — Present",
+        role: "Student & Developer",
+        company: "Projects",
         details: [
-            "Full-stack web application development",
-            "Database architecture & migrations",
-            "REST API design & implementation",
+            "Data Structures and Algorithms",
+            "Full Stack Web Development",
+            "Problem Solving",
         ],
     },
 ];

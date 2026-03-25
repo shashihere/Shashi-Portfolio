@@ -7,26 +7,26 @@ import sportsImg from "../assets/sports.png";
 
 const projects = [
     {
-        tag: "INFRASTRUCTURE",
-        subtitle: "AUTOSCALING ENGINE | 2026",
-        title: "AI Predictive Engine",
+        tag: "WEB APP",
+        subtitle: "AIRPORT ROUTE PLANNER | JAN’26",
+        title: "SkyRoute",
         description:
-            "A real-time infrastructure autoscaling engine that transitions from reactive to predictive scaling using custom Machine Learning (OLS Linear Regression implemented from scratch).",
-        image: aiImg,
-        tech: ["REACT.JS", "EXPRESS.JS", "ZUSTAND", "ML", "WEBSOCKETS"],
-        live: "https://ai-predictive-autoscalingengine.vercel.app/",
-        source: "",
+            "Built a Node.js, Express.js, and EJS web application to compute shortest routes between airports using Dijkstra’s Algorithm implemented in C++. Engineered a high-performance backend delivering route results within 2–3 seconds.",
+        image: "/skyroute-mockup.jpg",
+        tech: ["HTML", "CSS", "JAVASCRIPT", "NODE.JS", "EXPRESS.JS", "C++", "DSA"],
+        live: "https://skyroute-ktfj0h6gq-shashiheres-projects.vercel.app/",
+        source: "https://github.com/shashihere/SkyRoute---Airport-Route-Planner",
     },
     {
-        tag: "FULL STACK",
-        subtitle: "SPORTS MANAGEMENT | 2025",
-        title: "Sports Manager",
+        tag: "FULL STACK AI",
+        subtitle: "AI POWERED RESUME BUILDER | NOV’25",
+        title: "ResumePro",
         description:
-            "A full-stack system for players and coaches to manage registrations, match schedules, venue bookings, and performance records efficiently.",
-        image: sportsImg,
-        tech: ["REACT.JS", "NODE.JS", "MONGODB", "REST APIs"],
-        live: "https://sport-pro-lovat.vercel.app/",
-        source: "",
+            "Developed a full-stack MERN application enabling users to generate industry-ready resumes. Integrated AI-powered content assistance and implemented role-based dashboards with real-time communication via Socket.IO.",
+        image: "/resumepro-mockup.jpg",
+        tech: ["MONGODB", "EXPRESS.JS", "REACT.JS", "NODE.JS", "SOCKET.IO", "AI API"],
+        live: "https://resumepro-ai-resume-builder.vercel.app/",
+        source: "https://github.com/shashihere/ResumePro--AI-Resume-Builder",
     },
 ];
 

@@ -1,4 +1,4 @@
-# Hi there, I'm Ananya 👋
+# Hi there, I'm Shashi 👋
 
 Welcome to my personal portfolio repository! I am a passionate Computer Science Student and Developer, always eager to explore new challenges, craft seamless digital experiences, and build innovative solutions. 
 
@@ -15,9 +15,9 @@ This repository holds the source code for my personal website, which acts as a d
 
 I'm always open to new opportunities, collaborations, and discussing interesting projects! Feel free to reach out to me:
 
-- **Email:** ananyasbr06@gmail.com
-- **LinkedIn:** [in/ananya-jaiswal-688b9a27b](https://www.linkedin.com/in/ananya-jaiswal-688b9a27b/)
-- **GitHub:** [ananya411](https://github.com/ananya411)
+- **Email:** prabhashashi1303@gmail.com
+- **LinkedIn:** [in/shashi-13](https://www.linkedin.com/in/shashi-13/)
+- **GitHub:** [shashi-13](https://github.com/shashi-13)
 
 You can explore the live version of my portfolio here: **[Insert Your Live Website Link Here]**
 

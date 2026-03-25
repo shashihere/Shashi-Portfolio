@@ -58,7 +58,7 @@ export default function ContactSection() {
                                 Contact me
                             </Link>
                             <a
-                                href="https://github.com/ananya411"
+                                href="https://github.com/shashihere"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="contact-link"
@@ -74,7 +74,7 @@ export default function ContactSection() {
                                 GitHub
                             </a>
                             <a
-                                href="/AnanyaJaiswalResume.pdf"
+                                href="/ShashiPrabhaResume.pdf"
                                 className="contact-link"
                                 target="_blank"
                                 rel="noopener noreferrer"
@@ -94,7 +94,7 @@ export default function ContactSection() {
                                 Resume
                             </a>
                             <a
-                                href="https://www.linkedin.com/in/ananya-jaiswal-688b9a27b/"
+                                href="https://www.linkedin.com/in/shashiprabha13/"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="contact-link"
@@ -125,7 +125,7 @@ export default function ContactSection() {
                             </h2>
 
                             <div className="mega-footer-meta">
-                                <span>ananya.dev/</span>
+                                <span>shashi.dev/</span>
                             </div>
                         </div>
 
@@ -194,11 +194,11 @@ export default function ContactSection() {
                 {/* </div> */}
 
                 <div className="mega-footer-watermark" aria-hidden="true">
-                    ANANYA
+                    SHASHI
                 </div>
 
                 <div className="mega-footer-bottom">
-                    <span className="mega-footer-credit">CREATED BY ANANYA — ALL RIGHTS RESERVED</span>
+                    <span className="mega-footer-credit">CREATED BY SHASHI — ALL RIGHTS RESERVED</span>
                     <span className="mega-footer-year">INDIA 2026</span>
                 </div>
                 {/* </div> */}

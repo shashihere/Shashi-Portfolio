@@ -63,26 +63,26 @@ export default function NavBar() {
                     <nav className="nav-links" aria-label="Primary navigation">
                         <a href="#about">About</a>
                         <a href="#technical-arsenal">Skills</a>
-                        <a href="#experience">Experience</a>
+                        <a href="#training">Training</a>
                         <a href="#projects">Projects</a>
-                        <a href="#certifications">Certifications</a>
+                        <a href="#certifications">Certificates</a>
                     </nav>
                 </div>
 
                 <div className="nav-center">
                     <a href="#hero" className="nav-brand" aria-label="Go to top">
-                        ANANYA
+                        SHASHI
                     </a>
                 </div>
 
                 <div className="nav-side nav-side-right">
                     <div><nav className="nav-links" aria-label="Primary navigation">
-                        <a href="#awards">Awards</a>
+                        <a href="#awards">Achievements</a>
                         <a href="#education">Education</a>
 
                     </nav>
                     </div>
-                    <a href="/AnanyaJaiswalResume.pdf" download className="nav-cta nav-cta--resume">
+                    <a href="https://drive.google.com/file/d/16apiFZ07dPy1PRpxt8zTwl-65qj0O5WH/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="nav-cta nav-cta--resume">
                         <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                             <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
                             <polyline points="7 10 12 15 17 10" />
@@ -110,12 +110,12 @@ export default function NavBar() {
             <div className={`nav-mobile-menu ${isMenuOpen ? "is-open" : ""}`}>
                 <a href="#about" onClick={() => setIsMenuOpen(false)}>About</a>
                 <a href="#technical-arsenal" onClick={() => setIsMenuOpen(false)}>Skills</a>
-                <a href="#experience" onClick={() => setIsMenuOpen(false)}>Experience</a>
+                <a href="#training" onClick={() => setIsMenuOpen(false)}>Training</a>
                 <a href="#projects" onClick={() => setIsMenuOpen(false)}>Projects</a>
-                <a href="#certifications" onClick={() => setIsMenuOpen(false)}>Certifications</a>
-                <a href="#awards" onClick={() => setIsMenuOpen(false)}>Awards</a>
+                <a href="#certifications" onClick={() => setIsMenuOpen(false)}>Certificates</a>
+                <a href="#awards" onClick={() => setIsMenuOpen(false)}>Achievements</a>
                 <a href="#education" onClick={() => setIsMenuOpen(false)}>Education</a>
-                <a href="/AnanyaJaiswalResume.pdf" download onClick={() => setIsMenuOpen(false)}>
+                <a href="https://drive.google.com/file/d/16apiFZ07dPy1PRpxt8zTwl-65qj0O5WH/view?usp=sharing" target="_blank" rel="noopener noreferrer" onClick={() => setIsMenuOpen(false)}>
                     Resume
                 </a>
                 <a href="#contact" onClick={() => setIsMenuOpen(false)}>Contact</a>

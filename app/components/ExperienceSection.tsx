@@ -4,10 +4,7 @@ import { useState } from "react";
 import Image from "next/image";
 import RevealOnScroll from "./RevealOnScroll";
 
-import reactCert from "../assets/certificates/reactjs.png";
-import cloudCert from "../assets/certificates/nptelcloudananya.png";
-import llmCert from "../assets/certificates/LLm.png";
-import oracleCert from "../assets/certificates/oracle.png";
+
 
 
 
@@ -15,49 +12,23 @@ const education = [
     {
         school: "Lovely Professional University",
         degree: "Bachelor of Technology",
-        major: "Computer Science and Engineering | CGPA: 6.62",
+        major: "Computer Science and Engineering | CGPA: 6.93",
         location: "Punjab, India",
-        duration: "Aug' 23 — Present",
+        duration: "Aug'23 — Present",
     },
     {
-        school: "DAV Public School",
+        school: "DAV Sr Sec Public School, Anpara",
         degree: "Intermediate: PCM",
-        major: "Percentage: 81%",
+        major: "Percentage: 85%",
         location: "Uttar Pradesh, India",
-        duration: "2022 — 2023",
+        duration: "Mar'22 — Apr'23",
     },
     {
-        school: "DAV Public School",
+        school: "DAV Sr Sec Public School, Anpara",
         degree: "Matriculation",
-        major: "Percentage: 87%",
+        major: "Percentage: 98.4%",
         location: "Uttar Pradesh, India",
-        duration: "2020 — 2021",
-    },
-];
-
-const internships = [
-    {
-        role: "Summer Trainee – Data Structures and Algorithms",
-        company: "Center of Professional Enhancement",
-        location: "Punjab, IN",
-        duration: "Jun. 2025 – Jul. 2025 \u00A0\u00A0 | \u00A0",
-        points: [
-            "Built a Warehouse Routing System implementing Dijkstra’s Algorithm to compute shortest paths and optimize delivery efficiency.",
-            "Implemented core data structures including graphs, stacks, queues and trees to solve real-world problems.",
-            "Applied Object-Oriented Programming principles to design modular and scalable system components.",
-            "Solved structured coding assignments and algorithmic challenges demonstrating strong problem-solving ability.",
-        ],
-    },
-    {
-        role: "Deloitte Experience Program",
-        company: "Deloitte",
-        location: "Remote",
-        duration: "Apr. 2025 - Jun. 2025 \u00A0\u00A0 | \u00A0",
-        points: [
-            "Performed data reconciliation for large datasets to ensure accuracy and consistency across Deloitte platforms.",
-            "Analyzed business requirements for digital transformation projects and proposed scalable tech solutions.",
-            "Collaborated with cross-functional teams in consulting workflows to streamline client deliverables.",
-        ],
+        duration: "May'20 — Apr'21",
     },
 ];
 
@@ -90,18 +61,13 @@ const tools = [
 
 const awards = [
     {
-        title: "AWS Cloud Mentor",
-        org: "Guided 50+ students during hands-on AWS cloud computing and coding sessions.",
-        year: "Mentorship",
+        title: "Leetcode",
+        org: "Solved 100+ Data Structures & Algorithms problems on Leetcode.",
+        year: "Active",
     },
     {
-        title: "Hackathon Winner",
-        org: "Winner of a Hackathon at IIIT Kalyani, competing against top student developers with innovative AI solutions.",
-        year: "Winner",
-    },
-    {
-        title: "Full-Stack Developer",
-        org: "Actively developing and deploying modern full-stack applications with optimal performance.",
+        title: "HackerRank",
+        org: "Attained 5-star in C++ and 3-star in Python on HackerRank.",
         year: "Active",
     },
 ];
@@ -109,44 +75,44 @@ const awards = [
 
 const certifications = [
     {
-        title: "Oracle AI Vector Search",
-        org: "Certified Professional",
-        year: "September 2025",
-        image: oracleCert,
-        issuedBy: "Oracle University",
-        monthYear: "September 2025",
-        skills: ["AI Vector Search", "Oracle Database", "Machine Learning Infrastructure"],
-        link: "https://education.oracle.com/oracle-ai-vector-search-certified-professional/pP_OAVSCP"
-    },
-    {
         title: "Cloud Computing",
-        org: "Elite Certificate",
-        year: "April 2025",
-        image: cloudCert,
-        issuedBy: "NPTEL / IIT Kharagpur",
-        monthYear: "Jan-Apr 2025",
-        skills: ["Cloud Architecture", "Deployment Strategies", "Distributed Systems"],
-        link: "https://archive.nptel.ac.in/noc/Ecertificate/?q=NPTEL25CS107S145870078310493199"
+        org: "IIT Certified Course",
+        year: "October 2025",
+        image: "/certificates/nptel-cert.jpg",
+        issuedBy: "NPTEL SWAYAM",
+        monthYear: "October 2025",
+        skills: ["Cloud Computing"],
+        link: "https://drive.google.com/file/d/1WF-PBaWHUPQFzBEXmzddIFZ0Tt80N9Ub/view?usp=drive_link"
     },
     {
-        title: "Frontend Developer (React)",
-        org: "Role Certification",
-        year: "February 2026",
-        image: reactCert,
-        issuedBy: "HackerRank",
-        monthYear: "February 2026",
-        skills: ["React.js", "Frontend Development", "JavaScript", "Problem Solving"],
-        link: "https://www.hackerrank.com/certificates/5534DAA6DD6F"
-    },
-    {
-        title: "LLM Prompt Engineering",
+        title: "Computational Theory",
         org: "Course Completion",
-        year: "August 2025",
-        image: llmCert,
-        issuedBy: "Infosys Springboard",
-        monthYear: "August 2025",
-        skills: ["Prompt Engineering", "Generative AI", "LLMs", "ChatGPT-4"],
-        link: "https://verify.onwingspan.com"
+        year: "July 2025",
+        image: "/certificates/infosys-cert.jpg",
+        issuedBy: "Infosys",
+        monthYear: "July 2025",
+        skills: ["Computational Theory"],
+        link: "https://drive.google.com/file/d/1Cd-c4Gcvbz3Ile94OgTAcc2Nv_e9LUR6/view?usp=drive_link"
+    },
+    {
+        title: "Bits & Bytes of Computer Networking",
+        org: "Course Completion",
+        year: "October 2024",
+        image: "/certificates/google-cert.jpg",
+        issuedBy: "Google",
+        monthYear: "October 2024",
+        skills: ["Computer Networking"],
+        link: "https://drive.google.com/file/d/1qkGe4xPPXaD3N15HgXk7BgVGG8Zc2X9I/view?usp=drive_link"
+    },
+    {
+        title: "Introduction to Hardware & OS",
+        org: "Course Completion",
+        year: "October 2024",
+        image: "/certificates/ibm-cert.jpg",
+        issuedBy: "IBM",
+        monthYear: "October 2024",
+        skills: ["Hardware", "Operating Systems"],
+        link: "https://drive.google.com/file/d/13zt3fUGTU0DxVpVR7CTLKpNnYOBz2gPl/view?usp=drive_link"
     },
 ];
 
@@ -208,15 +174,15 @@ const CertificateCard = ({ cert, index }: any) => {
 export default function ExperienceSection() {
     return (
         <>
-            {/* Certifications */}
+            {/* Certificates */}
             <section className="certs-section" id="certifications">
                 <div className="section-container">
                     <RevealOnScroll>
-                        <p className="section-label">Certifications</p>
+                        <p className="section-label">Certificates</p>
                     </RevealOnScroll>
                     <RevealOnScroll delay={0.15}>
                         <h1 className="section-title">
-                            Certifications.
+                            Certificates.
                         </h1>
                     </RevealOnScroll>
 
@@ -228,7 +194,7 @@ export default function ExperienceSection() {
                 </div>
             </section>
 
-            {/* Awards & Achievements */}
+            {/* Achievements */}
             <section className="awards-section" id="awards">
                 <div className="section-container">
                     <RevealOnScroll>
@@ -236,7 +202,7 @@ export default function ExperienceSection() {
                     </RevealOnScroll>
                     <RevealOnScroll delay={0.15}>
                         <h1 className="section-title">
-                            Awards & <em>achievements.</em>
+                            Achievements.
                         </h1>
                     </RevealOnScroll>
 
@@ -287,43 +253,7 @@ export default function ExperienceSection() {
                 </div>
             </section>
 
-            {/* Internships */}
-            <section className="internships-section" id="internships">
-                <div className="section-container">
-                    <RevealOnScroll>
-                        <p className="section-label">Professional Experience</p>
-                    </RevealOnScroll>
-                    <RevealOnScroll delay={0.15}>
-                        <h1 className="section-title">
-                            Internships.
-                        </h1>
-                    </RevealOnScroll>
 
-                    <div className="internships-list">
-                        {internships.map((job, i) => (
-                            <RevealOnScroll key={i} delay={i * 0.12}>
-                                <div className="internship-item">
-                                    <div className="internship-header">
-                                        <div className="internship-title-group">
-                                            <h3 className="internship-role">{job.role}</h3>
-                                            <p className="internship-company">{job.company}</p>
-                                        </div>
-                                        <div className="internship-meta">
-                                            <span className="internship-duration">{job.duration}</span>
-                                            <span className="internship-location">{job.location}</span>
-                                        </div>
-                                    </div>
-                                    <ul className="internship-points">
-                                        {job.points.map((point, idx) => (
-                                            <li key={idx}>{point}</li>
-                                        ))}
-                                    </ul>
-                                </div>
-                            </RevealOnScroll>
-                        ))}
-                    </div>
-                </div>
-            </section>
 
 
 

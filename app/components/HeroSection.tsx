@@ -20,7 +20,7 @@ export default function HeroSection() {
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 1, delay: 1.4, ease: [0.25, 0.46, 0.45, 0.94] }}
                     >
-                        Software Developer
+                        Full Stack Developer
                         <br />
                         <em>& Computer Science Student</em>
                     </motion.h1>
@@ -31,7 +31,7 @@ export default function HeroSection() {
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.8, delay: 1.8 }}
                     >
-                        Hi, I&apos;m Ananya Jaiswal — a Computer Science student with a passion for
+                        Hi, I&apos;m Shashi Prabha — a Computer Science student with a passion for
                         building scalable web applications, mastering data structures, and creating
                         innovative digital solutions.
                     </motion.p>
@@ -44,7 +44,7 @@ export default function HeroSection() {
                     transition={{ duration: 0.9, delay: 1.6 }}
                 >
                     <div className="hero-portrait-wrapper">
-                        <img src="/profile.jpeg" alt="Ananya Jaiswal portrait" />
+                        <img src="/profile.jpg" alt="Shashi Prabha portrait" style={{ transform: "scale(1.35) translateY(-5%)" }} />
                     </div>
                 </motion.div>
             </div>

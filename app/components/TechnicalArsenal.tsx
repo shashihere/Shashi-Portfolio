@@ -5,46 +5,51 @@ import RevealOnScroll from "./RevealOnScroll";
 import powerAutomateIcon from "../assets/icons/microsoft-power-automate.svg";
 import restApiIcon from "../assets/icons/rest-api-icon.svg";
 
-type Category = "All" | "Languages" | "Frameworks" | "Databases" | "Tools";
+type Category = "All" | "Languages" | "Web Technologies" | "Databases" | "Core CS";
 
 interface Skill {
     name: string;
     category: Exclude<Category, "All">;
     icon?: string;
+    bgColor?: string;
 }
 
 const skills: Skill[] = [
     // Languages
-    { name: "Java", category: "Languages", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" },
     { name: "Python", category: "Languages", icon: "https://cdn.simpleicons.org/python/3776AB" },
-    { name: "C", category: "Languages", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/c/c-original.svg" },
-    { name: "SQL", category: "Languages", icon: "https://cdn.simpleicons.org/sqlite/003B57" },
+    { name: "C++", category: "Languages", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg" },
     { name: "JavaScript", category: "Languages", icon: "https://cdn.simpleicons.org/javascript/F7DF1E" },
-    { name: "HTML", category: "Languages", icon: "https://cdn.simpleicons.org/html5/E34F26" },
-    { name: "CSS", category: "Languages", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" },
+    { name: "C", category: "Languages", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/c/c-original.svg" },
+    { name: "PHP", category: "Languages", icon: "https://cdn.simpleicons.org/php/777BB4" },
+    { name: "Java", category: "Languages", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" },
 
-    // Frameworks
-    { name: "ReactJS", category: "Frameworks", icon: "https://cdn.simpleicons.org/react/61DAFB" },
-    { name: "NodeJS", category: "Frameworks", icon: "https://cdn.simpleicons.org/nodedotjs/339933" },
-    { name: "ExpressJS", category: "Frameworks", icon: "https://cdn.simpleicons.org/express/eeeeee" },
-    { name: "Tailwind CSS", category: "Frameworks", icon: "https://cdn.simpleicons.org/tailwindcss/06B6D4" },
+    // Web Technologies
+    { name: "HTML5", category: "Web Technologies", icon: "https://cdn.simpleicons.org/html5/E34F26" },
+    { name: "CSS", category: "Web Technologies", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" },
+    { name: "Tailwind CSS", category: "Web Technologies", icon: "https://cdn.simpleicons.org/tailwindcss/06B6D4" },
+    { name: "React.js", category: "Web Technologies", icon: "https://cdn.simpleicons.org/react/61DAFB" },
+    { name: "Node.js", category: "Web Technologies", icon: "https://cdn.simpleicons.org/nodedotjs/339933" },
+    { name: "Express.js", category: "Web Technologies", icon: "https://cdn.simpleicons.org/express/eeeeee" },
+    { name: "TypeScript", category: "Web Technologies", icon: "https://cdn.simpleicons.org/typescript/3178C6" },
 
     // Databases
+    { name: "MySQL", category: "Databases", icon: "https://cdn.simpleicons.org/mysql/4479A1" },
     { name: "MongoDB", category: "Databases", icon: "https://cdn.simpleicons.org/mongodb/47A248" },
+    { name: "PostgreSQL", category: "Databases", icon: "https://cdn.simpleicons.org/postgresql/4169E1" },
 
-    // Tools / Platforms
-    { name: "Git", category: "Tools", icon: "https://cdn.simpleicons.org/git/F05032" },
-    { name: "GitHub", category: "Tools", icon: "https://cdn.simpleicons.org/github/white" },
-    { name: "VS Code", category: "Tools", icon: "https://cdn.simpleicons.org/visualstudiocode/007ACC" },
-    { name: "Google Colab", category: "Tools", icon: "https://cdn.simpleicons.org/googlecolab/F9AB00" },
+    // Core CS
+    { name: "Operating Systems", category: "Core CS", bgColor: "#E34F26" },
+    { name: "Computer Networks", category: "Core CS", bgColor: "#4479A1" },
+    { name: "Data Structures and Algorithms", category: "Core CS", bgColor: "#47A248" },
+    { name: "Object-Oriented Programming", category: "Core CS", bgColor: "#777BB4" },
 ];
 
 const categories: Category[] = [
     "All",
     "Languages",
-    "Frameworks",
+    "Web Technologies",
     "Databases",
-    "Tools",
+    "Core CS",
 ];
 
 /* Simple abbreviation for the avatar circle inside each card */
@@ -94,8 +99,8 @@ export default function TechnicalArsenal() {
                                     className="arsenal-card-icon"
                                     style={{
                                         overflow: "hidden",
-                                        background: skill.icon ? "transparent" : "",
-                                        color: skill.icon ? "transparent" : ""
+                                        background: skill.icon ? "transparent" : (skill.bgColor || ""),
+                                        color: skill.icon ? "transparent" : (skill.bgColor ? "#fff" : "")
                                     }}
                                 >
                                     {skill.icon ? (

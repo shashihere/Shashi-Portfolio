@@ -4,12 +4,10 @@ import RevealOnScroll from "./RevealOnScroll";
 import TechnicalArsenal from "./TechnicalArsenal";
 
 const milestones = [
-    { title: "Hackathon Winner", desc: "InnovateX Hackathon at IIIT Kalyani." },
-    { title: "AWS Cloud Mentor", desc: "Guided 50+ students in cloud sessions." },
-    { title: "Predictive Scaling Engine", desc: "ML-based infrastructure automation." },
-    { title: "Warehouse Routing System", desc: "Shortest path optimization with Dijkstra." },
-    { title: "Data Reconciliation", desc: "Ensuring accuracy for Deloitte datasets." },
-    { title: "Full-Stack Developer", desc: "Actively building and deploying modern apps." },
+    { title: "DSA Enthusiast", desc: "Solved 100+ problems on LeetCode." },
+    { title: "Full-Stack Developer", desc: "Actively building and deploying MERN apps." },
+    { title: "Problem Solver", desc: "5-star in C++ & 3-star in Python on HackerRank." },
+    { title: "Continuous Learner", desc: "Always exploring new web technologies." },
 ];
 
 export default function AboutSection() {
@@ -21,11 +19,9 @@ export default function AboutSection() {
                     <RevealOnScroll>
                         <p className="section-label">Milestones</p>
                     </RevealOnScroll>
-                    <RevealOnScroll delay={1}>
                         <h1 className="section-title">
                             Fragments <em>of me.</em>
                         </h1>
-                    </RevealOnScroll>
                 </div>
 
                 <div className="marquee-wrapper">
@@ -41,10 +37,15 @@ export default function AboutSection() {
             {/* About / Personal Story */}
             <section className="about-section" id="about">
                 <div className="section-container">
+                    <RevealOnScroll>
+                        <h1 className="section-title" style={{ marginBottom: "60px" }}>
+                            About.
+                        </h1>
+                    </RevealOnScroll>
                     <div className="about-grid">
                         <RevealOnScroll>
                             <div className="about-image-container">
-                                <img src="/profile.jpeg" alt="Ananya Jaiswal portrait" />
+                                <img src="/profile.jpg" alt="Shashi Prabha portrait" style={{ transform: "scale(1.15)" }} />
                             </div>
                         </RevealOnScroll>
 
@@ -55,7 +56,7 @@ export default function AboutSection() {
                                         <h3>DSA Enthusiast</h3>
                                         <p>
                                             Mastering core data structures and algorithms to solve complex
-                                            real-world problems with optimized performance.
+                                            problems and optimize performance.
                                         </p>
                                     </div>
                                 </RevealOnScroll>
@@ -64,18 +65,18 @@ export default function AboutSection() {
                                     <div className="about-highlight-item">
                                         <h3>Full-stack Developer</h3>
                                         <p>
-                                            Building comprehensive solutions from React.js frontends to
-                                            Node.js backends and MongoDB databases.
+                                            Building responsive web applications using the MERN stack
+                                            along with modern frontend libraries.
                                         </p>
                                     </div>
                                 </RevealOnScroll>
 
                                 <RevealOnScroll delay={2}>
                                     <div className="about-highlight-item">
-                                        <h3>Community Mentor</h3>
+                                        <h3>Problem Solver</h3>
                                         <p>
-                                            Passionate about sharing knowledge, having guided 50+ students
-                                            through AWS cloud computing and coding fundamentals.
+                                            Passionate about tackling algorithmic challenges and continuously
+                                            improving logical thinking abilities.
                                         </p>
                                     </div>
                                 </RevealOnScroll>
@@ -84,8 +85,8 @@ export default function AboutSection() {
                                     <div className="about-highlight-item">
                                         <h3>Continuous Learner</h3>
                                         <p>
-                                            Always adapting to new technologies, from ML-based infrastructure
-                                            to advanced system integration and consulting workflows.
+                                            Always adapting to new technologies and exploring advanced 
+                                            development workflows.
                                         </p>
                                     </div>
                                 </RevealOnScroll>
@@ -94,11 +95,9 @@ export default function AboutSection() {
                             <RevealOnScroll delay={4}>
                                 <p className="about-bio">
                                     I&apos;m a Computer Science student at Lovely Professional University
-                                    with a deep focus on software engineering and innovative problem-solving.
-                                    My experience ranges from engineering predictive autoscaling engines
-                                    using Machine Learning to optimizing delivery routing systems with
-                                    Dijkstra’s algorithm. I believe in the power of clean code and efficient
-                                    data structures to drive meaningful digital transformation.
+                                    with a deep focus on software engineering and web development.
+                                    I am passionate about exploring new technologies, solving complex problems, and building scalable applications.
+                                    My goal is to continuously grow as a full-stack engineer and create impactful digital solutions.
                                 </p>
                                 <p className="about-love">I love what I build!</p>
                             </RevealOnScroll>
