@@ -47,7 +47,7 @@ export default function ContactPage() {
                 const errData = await response.json().catch(() => ({}));
                 setStatus(errData.message || "Failed to send message. Please try again.");
             }
-        } catch (error) {
+        } catch (_error) {
             setStatus("An error occurred. Please try again later.");
         } finally {
             setIsSubmitting(false);

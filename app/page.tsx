@@ -2,7 +2,6 @@ import HeroSection from "./components/HeroSection";
 import SmoothScroll from "./components/SmoothScroll";
 import ParticleBackground from "./components/ParticleBackground";
 import CustomCursor from "./components/CustomCursor";
-import CareerSection from "./components/CareerSection";
 import ProjectsSection from "./components/ProjectsSection";
 import AboutSection from "./components/AboutSection";
 import TrainingSection from "./components/TrainingSection"; // Added this import

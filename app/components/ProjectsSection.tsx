@@ -2,8 +2,6 @@
 
 import Image from "next/image";
 import RevealOnScroll from "./RevealOnScroll";
-import aiImg from "../assets/ai.png";
-import sportsImg from "../assets/sports.png";
 
 const projects = [
     {

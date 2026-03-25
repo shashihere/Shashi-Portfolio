@@ -15,7 +15,7 @@ export async function GET() {
                 "Content-Disposition": "attachment; filename=Ananya_Jaiswal_Resume.pdf",
             },
         });
-    } catch (e) {
+    } catch (_e) {
         return new NextResponse("Resume file not found", { status: 404 });
     }
 }

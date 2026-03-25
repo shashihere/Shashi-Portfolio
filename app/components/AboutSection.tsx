@@ -45,6 +45,7 @@ export default function AboutSection() {
                     <div className="about-grid">
                         <RevealOnScroll>
                             <div className="about-image-container">
+                                {/* eslint-disable-next-line @next/next/no-img-element */}
                                 <img src="/profile.jpg" alt="Shashi Prabha portrait" style={{ transform: "scale(1.15)" }} />
                             </div>
                         </RevealOnScroll>

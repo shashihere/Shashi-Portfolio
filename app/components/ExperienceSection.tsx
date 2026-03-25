@@ -116,7 +116,7 @@ const certifications = [
     },
 ];
 
-const CertificateCard = ({ cert, index }: any) => {
+const CertificateCard = ({ cert, index }: { cert: { title: string, org: string, year: string, image: string, issuedBy: string, monthYear: string, skills: string[], link: string }, index: number }) => {
     const [isFlipped, setIsFlipped] = useState(false);
     return (
         <RevealOnScroll delay={index * 0.12}>
