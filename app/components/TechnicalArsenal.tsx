@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import RevealOnScroll from "./RevealOnScroll";
-import restApiIcon from "../assets/icons/rest-api-icon.svg";
+
 
 type Category = "All" | "Languages" | "Web Technologies" | "Databases" | "Core CS";
 
