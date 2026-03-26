@@ -5,6 +5,17 @@ import RevealOnScroll from "./RevealOnScroll";
 
 const projects = [
     {
+        tag: "DEV TOOLS",
+        subtitle: "GAMIFIED LEARNING PLATFORM | MAR’26",
+        title: "ScriptXP",
+        description:
+            "Developed a full-stack MERN application (MongoDB, Express.js, React, Node.js) with responsive UI and efficient RESTful APIs for seamless client-server interaction. Implemented secure authentication, database integration, and optimized performance, ensuring smooth user experience and scalable architecture.",
+        image: "/scriptxp-mockup.jpg",
+        tech: ["REACT.JS", "NODE.JS", "MONGODB", "EXPRESS.JS", "AXIOS"],
+        live: "https://script-xp.vercel.app/",
+        source: "https://github.com/shashihere/ScriptXP",
+    },
+    {
         tag: "WEB APP",
         subtitle: "AIRPORT ROUTE PLANNER | JAN’26",
         title: "SkyRoute",
@@ -25,17 +36,6 @@ const projects = [
         tech: ["MONGODB", "EXPRESS.JS", "REACT.JS", "NODE.JS", "SOCKET.IO", "AI API"],
         live: "https://resumepro-ai-resume-builder.vercel.app/",
         source: "https://github.com/shashihere/ResumePro--AI-Resume-Builder",
-    },
-    {
-        tag: "DEV TOOLS",
-        subtitle: "GAMIFIED LEARNING PLATFORM | MAR’26",
-        title: "ScriptXP",
-        description:
-            "Developed a full-stack MERN application (MongoDB, Express.js, React, Node.js) with responsive UI and efficient RESTful APIs for seamless client-server interaction. Implemented secure authentication, database integration, and optimized performance, ensuring smooth user experience and scalable architecture.",
-        image: "/scriptxp-mockup.jpg",
-        tech: ["REACT.JS", "NODE.JS", "MONGODB", "EXPRESS.JS", "AXIOS"],
-        live: "https://script-xp.vercel.app/",
-        source: "https://github.com/shashihere/ScriptXP",
     },
 ];
 
