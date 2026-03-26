@@ -16,17 +16,6 @@ const projects = [
         source: "https://github.com/shashihere/ScriptXP",
     },
     {
-        tag: "WEB APP",
-        subtitle: "AIRPORT ROUTE PLANNER | JAN’26",
-        title: "SkyRoute",
-        description:
-            "Built a Node.js, Express.js, and EJS web application to compute shortest routes between airports using Dijkstra’s Algorithm implemented in C++. Engineered a high-performance backend delivering route results within 2–3 seconds.",
-        image: "/skyroute-mockup.jpg",
-        tech: ["HTML", "CSS", "JAVASCRIPT", "NODE.JS", "EXPRESS.JS", "C++", "DSA"],
-        live: "https://skyroute-ktfj0h6gq-shashiheres-projects.vercel.app/",
-        source: "https://github.com/shashihere/SkyRoute---Airport-Route-Planner",
-    },
-    {
         tag: "FULL STACK AI",
         subtitle: "AI POWERED RESUME BUILDER | NOV’25",
         title: "ResumePro",
@@ -36,6 +25,17 @@ const projects = [
         tech: ["MONGODB", "EXPRESS.JS", "REACT.JS", "NODE.JS", "SOCKET.IO", "AI API"],
         live: "https://resumepro-ai-resume-builder.vercel.app/",
         source: "https://github.com/shashihere/ResumePro--AI-Resume-Builder",
+    },
+    {
+        tag: "WEB APP",
+        subtitle: "AIRPORT ROUTE PLANNER | JAN’26",
+        title: "SkyRoute",
+        description:
+            "Built a Node.js, Express.js, and EJS web application to compute shortest routes between airports using Dijkstra’s Algorithm implemented in C++. Engineered a high-performance backend delivering route results within 2–3 seconds.",
+        image: "/skyroute-mockup.jpg",
+        tech: ["HTML", "CSS", "JAVASCRIPT", "NODE.JS", "EXPRESS.JS", "C++", "DSA"],
+        live: "https://skyroute-ktfj0h6gq-shashiheres-projects.vercel.app/",
+        source: "https://github.com/shashihere/SkyRoute---Airport-Route-Planner",
     },
 ];
 
