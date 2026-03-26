@@ -21,7 +21,7 @@ const projects = [
         title: "ResumePro",
         description:
             "Developed a full-stack MERN application enabling users to generate industry-ready resumes. Integrated AI-powered content assistance and implemented role-based dashboards with real-time communication via Socket.IO.",
-        image: "/resumepro-mockup.jpg",
+        image: "/resumepro-mockup.png",
         tech: ["MONGODB", "EXPRESS.JS", "REACT.JS", "NODE.JS", "SOCKET.IO", "AI API"],
         live: "https://resumepro-ai-resume-builder.vercel.app/",
         source: "https://github.com/shashihere/ResumePro--AI-Resume-Builder",
