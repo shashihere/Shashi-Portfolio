@@ -8,11 +8,11 @@ const internships = [
         company: "Training",
         location: "Remote",
         duration: "Jul. 2025 \u00A0\u00A0 | \u00A0",
-        link: "https://drive.google.com/drive/folders/1Q0sivB5E9mIkkMinAutmqcgXcTeFxJcl?usp=drive_link",
+        link: "https://drive.google.com/file/d/1W8Drjx97iiCcxSC4q8UE8rB_B9U4dpj3/view?usp=sharing",
         points: [
             "Completed an intensive DSA bootcamp focused on mastering core Data Structures and Algorithms from basics to advanced problem-solving.",
             "Implemented key data structures and algorithms including arrays, linked lists, stacks, queues, trees, graphs, recursion, and greedy techniques.",
-            "Achieved Grade A+ through consistent performance, improving coding efficiency and logical thinking.",
+            "Achieved Grade O through consistent performance, improving coding efficiency and logical thinking.",
             "Gained hands-on experience solving computer science problems using optimized and efficient approaches.",
         ],
     },
