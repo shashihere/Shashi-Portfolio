@@ -26,6 +26,17 @@ const projects = [
         live: "https://resumepro-ai-resume-builder.vercel.app/",
         source: "https://github.com/shashihere/ResumePro--AI-Resume-Builder",
     },
+    {
+        tag: "DEV TOOLS",
+        subtitle: "GAMIFIED LEARNING PLATFORM | MAR’26",
+        title: "ScriptXP",
+        description:
+            "Developed a full-stack MERN application (MongoDB, Express.js, React, Node.js) with responsive UI and efficient RESTful APIs for seamless client-server interaction. Implemented secure authentication, database integration, and optimized performance, ensuring smooth user experience and scalable architecture.",
+        image: "/scriptxp-mockup.jpg",
+        tech: ["REACT.JS", "NODE.JS", "MONGODB", "EXPRESS.JS", "AXIOS"],
+        live: "https://script-xp.vercel.app/",
+        source: "https://github.com/shashihere/ScriptXP",
+    },
 ];
 
 export default function ProjectsSection() {
