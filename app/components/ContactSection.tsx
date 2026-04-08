@@ -74,7 +74,7 @@ export default function ContactSection() {
                                 GitHub
                             </a>
                             <a
-                                href="https://drive.google.com/file/d/1ULS-Llg5gSGnp89zff-wm5EZykZvZQdn/view?usp=sharing"
+                                href="https://drive.google.com/file/d/1GlyEzvUqBEgA4RMiminLA56c1ID-aNxJ/view?usp=drive_link"
                                 className="contact-link"
                                 target="_blank"
                                 rel="noopener noreferrer"
